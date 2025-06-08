@@ -5,7 +5,7 @@ module.exports = async function fileWriterAgent(finalCodeString) {
   const fileBlocks = finalCodeString.match(/\[(.+\.jsx)\]\n([\s\S]*?)(?=\n\[.+\.jsx\]|\s*$)/g);
 
   if (!fileBlocks) {
-    throw new Error('❌ No file blocks found in the final reviewed code.');
+    throw new Error('No file blocks found in the final reviewed code.');
   }
 
   for (const block of fileBlocks) {
