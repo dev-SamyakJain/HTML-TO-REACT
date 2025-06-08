@@ -17,7 +17,7 @@ Take the given HTML string and convert it into modular React components. Return 
 [index.jsx]
 <jsx code for index.jsx>
 
-❗ DO NOT include:
+ DO NOT include:
 - Any markdown like \`\`\`jsx
 - Any explanation or description — return ONLY the code blocks.`;
 
